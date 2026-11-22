@@ -1,0 +1,18 @@
+18 files, 117 chunks, 26 queries
+config                    recall@1          recall@3          recall@5               mrr
+bm25              0.38 [0.19-0.58]  0.54 [0.35-0.73]  0.77 [0.62-0.92]  0.51 [0.36-0.66]
+bm25+rerank       0.38 [0.19-0.58]  0.54 [0.35-0.73]  0.73 [0.54-0.88]  0.52 [0.37-0.67]
+dense             0.27 [0.12-0.46]  0.50 [0.31-0.69]  0.73 [0.54-0.88]  0.44 [0.31-0.58]
+dense+rerank      0.35 [0.15-0.54]  0.54 [0.35-0.73]  0.69 [0.50-0.85]  0.48 [0.34-0.63]
+hybrid            0.38 [0.19-0.58]  0.62 [0.42-0.81]  0.77 [0.62-0.92]  0.52 [0.37-0.67]
+hybrid+rerank     0.38 [0.19-0.58]  0.65 [0.46-0.81]  0.73 [0.54-0.88]  0.52 [0.38-0.67]
+random-ranking control recall@5 (one draw per query): 0.04 | analytic chance: 0.05
+
+hybrid+rerank misses at recall@5:
+  rank=6  How much smaller does 8-bit weight quantization make the model?
+  rank=10  How many planted bad solutions did the grader catch?
+  rank=6  Which wrong solution stores the cache on the class?
+  rank=26  How many parameters does the trained NumPy transformer have?
+  rank=None  Which operating systems and interpreter versions does continuous integration cover?
+  rank=21  How is reproducibility of two same-seed runs verified?
+  rank=17  What speedup did batch 32 give for cached generation?
